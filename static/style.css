@@ -1,0 +1,102 @@
+html, body {
+	margin: 0;
+	background: url(nyc.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	font-family: 'Lato', serif;
+}
+
+.header {
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: white;
+	background-color: #333333;
+	height: 50px;
+	font-size: 30px;
+}
+
+.container {
+	margin: 0 auto;
+	max-height: 360px;
+}
+
+.main {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.main h1 {
+	margin: 75px 0 0 0;
+	text-transform: uppercase;
+	font-size: 50px;
+	letter-spacing: 2px;
+}
+
+.main h3 {
+	margin: 2px;
+}
+
+.projects {
+	text-align: center;
+}
+
+.projects h1 {
+	text-align: center;
+}
+
+.projects .column {
+	float: left;
+	width: 50%;
+	margin-bottom: 75px;
+}
+
+.projects .column img {
+	border-color: black;
+	height: 50%;
+	width: 50%;
+}
+
+.projects h2 {
+	letter-spacing: 2px;
+}
+
+.clearfix {
+ 	clear: both;
+}
+
+.btn {
+	border: 1.5px solid #333;
+	background-color: white;
+ 	color: #333;
+ 	margin-top: 15px;
+ 	font-weight: 500;
+ 	font-size: 15px;
+ 	letter-spacing: 2px;
+ 	padding: 10px 20px;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	display: inline-block;
+}
+
+.textbox-vv {
+	background-color: white;
+	border: 1.5px solid #333;
+	margin: 0 auto;
+	height: 150px;
+	width: 300px;
+}
+
+.textbox-efk {
+	background-color: white;
+	border: 1.5px solid #333;
+	margin: 0 auto;
+	height: 215px;
+	width: 325px;
+}
